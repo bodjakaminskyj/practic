@@ -30,14 +30,17 @@
 }
 .search{
     margin-left: 5%;
-    font-size: 15pt;
+    font-size: 20pt;
 }
 .search sub{
     font-size: 8pt;
+    margin-right: 2pt;
+    
 }
 .search sup{
     font-size: 8pt;
-	margin-left: -4pt;
+	margin-left: -6pt;
+    margin-right: 3pt;
 }
 .search input{
     width: 15pt;
