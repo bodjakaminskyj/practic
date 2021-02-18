@@ -44,6 +44,12 @@
 }
 .search input{
     width: 15pt;
+    border-bottom: 1px solid #F4F4F4;
+    border-left: 1px solid #E0E0E0;
+    border-radius: 5px;
+    border-right: 1px solid #E0E0E0;
+    border-top: 1px solid #C0C0C0;
+    box-shadow: 0px 1px 1px #c9c9c9 inset;
 }
 .search button{
     margin-left: 8%;
@@ -68,4 +74,50 @@
 .calculator label{
     margin-right: 20%;
     margin-left: 15%;
+}
+@media all and (max-width: 996px) {
+    .autors p{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .title{
+    position: relative;
+}
+.logo{
+    position: relative;
+    padding-left: 40%;
+    text-align : center;
+}
+.introduction, item1 {
+    margin-top: 0%;
+}
+.search{
+    font-size: 20px;
+}
+.search input {
+    width: 8pt;
+
+}
+
+}
+@media all and (max-width: 768px){
+    .search{
+        font-size: 15px;
+    }
+    .search sup {
+        font-size: 6pt;
+        margin-left: -5pt;
+        margin-right: 3pt;   
+    }
+    
+    
+    .search sub {
+        font-size: 6pt;
+        margin-right: 2pt;
+    }
+    
+    .search input {
+        width: 7pt;
+        height: 7pt;
+    }
 }
