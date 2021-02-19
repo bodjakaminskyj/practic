@@ -98,6 +98,9 @@
     width: 8pt;
 
 }
+.calculator label{
+    margin-left: 5px;
+}
 
 }
 @media all and (max-width: 768px){
@@ -120,4 +123,34 @@
         width: 7pt;
         height: 7pt;
     }
+    .calculator{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .calculator label{
+        margin-left: 12%;
+    }
+}
+@media all and (max-width: 425px){
+    .title{
+        width: 90%;
+       padding-left: 0px;
+        margin-left: 5%;
+    }
+    .logo{
+        width: 40%;
+        padding-left: 30%;
+      
+    }
+
+    .introduction, .item1{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    .calculator{
+        width: 90%;
+        margin-left: 5%;
+    }
+
 }
