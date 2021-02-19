@@ -98,6 +98,9 @@
     width: 8pt;
 
 }
+.search button{
+    margin-top: 10px;
+}
 .calculator label{
     margin-left: 5px;
 }
